@@ -12,6 +12,7 @@ public class Stream {
     student.add("Mithun");
     student.add("Alice");
     student.add("Lea");
+    student.add("mithunsn");
     }
 
 }
