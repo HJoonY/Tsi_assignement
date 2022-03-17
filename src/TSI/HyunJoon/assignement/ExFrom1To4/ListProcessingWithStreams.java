@@ -1,8 +1,10 @@
-package TSI.HyunJoon.assignement.Ex1AndEx2;
+package TSI.HyunJoon.assignement.ExFrom1To4;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * Exercise 1
@@ -24,6 +26,17 @@ public class ListProcessingWithStreams {
         System.out.println("\nEx2 : \n");
         list.stream()
                 .forEach(element-> System.out.println(element.toUpperCase(Locale.ROOT)));
+        /**
+         * Exercise 3 (total number of points: 2)
+         * 1. Continue with the list from exercise1
+         * 2. Output elements from the list,which starts with “b”.
+         */
+        System.out.println("\nEx3 : \n");
+        Stream<String> listB = list.stream().filter(element->element.startsWith("b"));
+        System.out.println(listB.collect(Collectors.toList()));
+
+
+
     }
 }
 
