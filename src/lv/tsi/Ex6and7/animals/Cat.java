@@ -1,4 +1,4 @@
-package lv.tsi.animals;
+package lv.tsi.Ex6and7.animals;
 
 
 import java.io.Console;

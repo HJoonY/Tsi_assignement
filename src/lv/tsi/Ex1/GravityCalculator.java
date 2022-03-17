@@ -1,4 +1,4 @@
-package lv.tsi;
+package lv.tsi.Ex1;
 
 //Exercise 1
 

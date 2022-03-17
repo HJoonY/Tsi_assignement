@@ -1,4 +1,4 @@
-package lv.tsi;
+package lv.tsi.Ex2;
 // Exercise 2
 
 public class FactorialCalculator {

@@ -1,4 +1,4 @@
-package lv.tsi;
+package lv.tsi.Ex3;
 
 import java.util.Arrays;
 import java.util.Random;

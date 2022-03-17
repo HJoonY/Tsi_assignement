@@ -1,4 +1,4 @@
-package lv.tsi;
+package lv.tsi.Ex4;
 
 import java.util.Arrays;
 // Exercise 4
