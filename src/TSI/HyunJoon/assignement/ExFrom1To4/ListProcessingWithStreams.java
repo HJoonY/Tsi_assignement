@@ -35,6 +35,20 @@ public class ListProcessingWithStreams {
         Stream<String> listB = list.stream().filter(element->element.startsWith("b"));
         System.out.println(listB.collect(Collectors.toList()));
 
+        /**
+         * Exercise 4
+         * 1. Continuewiththelistfromexercise1
+         * 3. Outputelementsfromthelist,whichstartswith“c”.Theelementsshouldbeinuppercase
+         * and alphabetically sorted.
+         */
+        System.out.println("\nEx4 : \n");
+        Stream<String> listC = list.stream()
+                .filter(element->element.startsWith("c"))
+                        .sorted();
+        listC.forEach(element-> System.out.println(element.toUpperCase(Locale.ROOT)));
+
+
+
 
 
     }
